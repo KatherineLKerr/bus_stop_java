@@ -4,12 +4,13 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class BusStopTest {
-
     private BusStop busstop;
+    private Person person;
 
     @Before
     public void setUp() {
         busstop = new BusStop("the beach");
+        person = new Person();
     }
 
     @Test

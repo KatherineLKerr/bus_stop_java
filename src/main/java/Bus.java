@@ -1,17 +1,15 @@
 import java.util.ArrayList;
 
 public class Bus {
-    private ArrayList<Person> passengers;
     private String destination;
     private int capacity;
-    private BusStop busstop;
-    private Person person;
+    private ArrayList<Person> passengers;
+
 
     public Bus(String destination) {
         this.destination = destination;
         this.capacity = 10;
         this.passengers = new ArrayList<Person>();
-        busstop.addPerson();
     }
 
     public int passengerCount() {

@@ -18,8 +18,8 @@ import java.util.ArrayList;
         return this.queue.size();
     }
 
-    public void removePerson() {
-        this.queue.remove(0);
+    public Person removePerson() {
+       return this.queue.remove(0);
     }
 }
 

@@ -7,11 +7,28 @@ public class BusTest {
 
     private Bus bus;
     private BusStop busstop;
+    private Person person;
 
     @Before
     public void setUp() {
         bus = new Bus("the beach");
         busstop = new BusStop("beach");
+        person = new Person();
+        busstop.addPerson();
+        busstop.addPerson();
+        busstop.addPerson();
+        busstop.addPerson();
+        busstop.addPerson();
+        busstop.addPerson();
+        busstop.addPerson();
+        busstop.addPerson();
+        busstop.addPerson();
+        busstop.addPerson();
+        busstop.addPerson();
+        busstop.addPerson();
+        busstop.addPerson();
+        busstop.addPerson();
+        busstop.addPerson();
     }
 
     @Test
